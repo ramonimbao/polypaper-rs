@@ -1,0 +1,15 @@
+[package]
+name = "polypaper"
+version = "0.1.0"
+authors = ["Ramon Imbao <ramonimbao@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+cgmath = "0.17.0"
+rand = "0.7.0"
+chrono = "0.4"
+
+[dependencies.quicksilver]
+version = "0.3.15"
+default-features = false
+features = []
